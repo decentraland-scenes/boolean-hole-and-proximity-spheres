@@ -1,0 +1,41 @@
+{
+  "display": {
+    "title": "Proxi Maxi",
+    "description": "Proxi Maxi is an art piece showcasing Newton's Third Law of Motion: for every action, there's an equal reaction going the opposite way. In this solo experience, Proxi Maxi is at equilibrium and motionless, that is until you, the player, disturb the system causing the objects to react to your presence.",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "Bence Vargas, Thomas Wright and Will Caine",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "53,53","54,53","55,53",
+      "53,54","54,54","55,54",
+      "53,55","54,55","55,55"
+    ],
+    "base": "53,53"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": [3,43],
+        "y": [1,1],
+        "z": [0,1]
+      },
+      "cameraTarget": {
+        "x": 24,
+        "y": 1,
+        "z": 24
+      }
+    }
+  ],
+  "requiredPermissions": [],
+  "featureToggles": {}
+}
